@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import topBanner from '../Images/topBanner-1.jpeg'
 import './Header.css'
 const Header = ({ badge, leagueId }) => {
     const [leagueBadge, setLeagueBadge] = useState();
@@ -8,8 +7,7 @@ const Header = ({ badge, leagueId }) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeagueBadge(data.leagues[0].strLogo))
-    }, [])
-    console.log(leagueBadge);
+    }, [leagueId])
     const style = {
         maxHeight: '60%',
         minWidth: '50%'

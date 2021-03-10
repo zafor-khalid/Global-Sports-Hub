@@ -14,11 +14,11 @@ const LeagueCard = ({ leagueId, flag }) => {
     fetch(url)
       .then(res => res.json())
       .then(data => setLeagueInfo(data.leagues[0]))
-  }, [])
+  }, [leagueId])
 
   const { strLeague, strBadge, strSport, intFormedYear, strCountry, strDescriptionEN, strGender, strFacebook, strTwitter, strYoutube} = leagueInfo;
 
-  console.log(strFacebook);
+
   const style = {
     height: '150px',
     width: '80%',
@@ -52,9 +52,9 @@ const LeagueCard = ({ leagueId, flag }) => {
             </Link>
           </div>
           <div>
-            <a href={`https://${strFacebook}`} target='_blank' class="fa fa-facebook"></a>
-            <a href={`https://${strTwitter}`} target='_blank' class="fa fa-twitter"></a>
-            <a href={`https://${strYoutube}`} target='_blank' class="fa fa-youtube"></a>
+            <a rel="noreferrer" href={`https://${strFacebook}`} target='_blank' class="fa fa-facebook"><span></span></a>
+            <a rel="noreferrer" href={`https://${strTwitter}`} target='_blank' class="fa fa-twitter"><span></span></a>
+            <a rel="noreferrer" href={`https://${strYoutube}`} target='_blank' class="fa fa-youtube"><span></span></a>
           </div>
 
         </div>

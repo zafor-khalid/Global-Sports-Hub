@@ -10,7 +10,7 @@ const LeagueDetails = () => {
     return (
         <>
         <Header badge={true} leagueId={leagueId} />
-        <div className="d-flex justify-content-center m-5 text-white">
+        <div key = {leagueId} className="d-flex justify-content-center m-5 text-white">
             <LeagueCard
                 leagueId={leagueId}
                 flag={flag}
