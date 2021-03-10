@@ -1,4 +1,5 @@
-## GLOBAL SPORTS HUB
+# LiveSite: https://zealous-newton-61023e.netlify.app/ 
+# GLOBAL SPORTS HUB
 # Based on React Routing
 # key features: 
              1. Using React routing (static && dynamic), fontawsome to show icon
