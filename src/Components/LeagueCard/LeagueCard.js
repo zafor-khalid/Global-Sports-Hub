@@ -39,7 +39,7 @@ const LeagueCard = ({ leagueId, flag }) => {
               <h5><FontAwesomeIcon icon={(strGender === 'male' || strGender === 'Male') ? faMars : faVenus} /> Gender: {strGender}</h5>
             </div>
             <div className="mr-3 my-3 ml-3 rounded">
-              <img src={(strGender === 'female' || strGender === 'Female') ? maleImg : femaleImg} alt=""
+              <img src={(strGender === 'female' || strGender === 'Female') ? femaleImg : maleImg} alt=""
                 style={{ height: "13rem" }}
               />
             </div>
