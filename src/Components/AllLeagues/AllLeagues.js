@@ -17,7 +17,7 @@ const AllLeagues = () => {
         <div className=" text-white d-flex flex-wrap justify-content-center align-items-center">
             {
                 leagues.map(league =>
-                    <div className="league m-3">
+                    <div className="league m-3" key={league.idLeague}>
                         <LeagueCard
                             key={league.idLeague}
                             leagueId={league.idLeague} 
