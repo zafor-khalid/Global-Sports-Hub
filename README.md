@@ -1,7 +1,7 @@
-# LiveSite: https://zealous-newton-61023e.netlify.app/ 
-# GLOBAL SPORTS HUB
-# Based on React Routing
-# key features: 
+## LiveSite: https://elegant-curran-0973ed.netlify.app/
+## GLOBAL SPORTS HUB
+## Based on React Routing
+## key features: 
              1. Using React routing (static && dynamic), fontawsome to show icon
              2. ALl major sports leagues are displayed using API and showed them in components
              3. For more info, you can explore any league with "Explore more" button.
