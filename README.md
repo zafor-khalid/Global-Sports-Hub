@@ -9,5 +9,3 @@
              5. when enter in details page, leagues badge will show at the top of the banner.
              6. you can redirect to home page with "Back" btn.
              7. details page's image will be changed based on gender of the league
-## Bug: 
-    When there is no data for wrong leagueId during calling API, an error message should be shown. You are welcome to fix it.
